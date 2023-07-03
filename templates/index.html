@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comment Submission</title>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='styleTrial.css') }}">
+
+</head>
+<body>
+  <h1>Comment Submission</h1>
+  <form action="/submit" method="post">
+    <textarea name="comment" rows="4" cols="50" placeholder="Enter your comment"></textarea><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  
+</body>
+</html>
